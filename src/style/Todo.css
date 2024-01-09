@@ -1,0 +1,76 @@
+.todo {
+    width: 36%;
+    height: auto;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+
+}
+
+.todo__add {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+.todo__add button {
+    padding: 5px 20px 5px 20px;
+    border: none;
+    background-color: rgb(255, 211, 60);
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.todo__input {
+    display: flex;
+    flex-direction: column;
+    width: 36%;
+
+}
+
+.todo__input label {
+    font-size: 15px;
+    color: gray;
+}
+
+.todo__input input {
+    margin-top: 5px;
+    width: 100%;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(205, 205, 205);
+    font-size: 15px;
+}
+
+.todo__filter__btns {
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+
+.todo__filter__btns button {
+    margin-left: 10px;
+}
+
+.todo__button {
+    padding: 5px 15px 5px 15px;
+    border: none;
+    background-color: rgb(255, 211, 60);
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.todo__list {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

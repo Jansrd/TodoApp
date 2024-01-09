@@ -1,0 +1,55 @@
+.todo__list__container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.todo__list__content {
+    width: 80%;
+    height: 60px;
+    border: 1px solid rgb(205, 205, 205);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.todo__info {
+    height: 100px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.todo__info h3 {
+    margin: 0;
+}
+
+.todo__info p {
+    margin: 0;
+    font-size: 15px;
+}
+
+.todo__options {
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+}
+
+.todo__options button {
+    border: none;
+    background: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.todo__options input {
+    margin-top: -4px;
+    width: 15px;
+    height: 15px;
+}
