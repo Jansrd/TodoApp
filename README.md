@@ -23,7 +23,7 @@ Welcome to the React Todo App! Stay organized and manage your tasks with this si
   Follow these steps to set up and run MovieApp on your local machine:
   
     1. Clone the repository:
-            git clone https://github.com/Jansrd/TodoApp.git
+          git clone https://github.com/Jansrd/TodoApp.git
     2. Navigate to the project directory:
           cd TodoApp
     3. npm install
